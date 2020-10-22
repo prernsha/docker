@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.neu.edu</groupId>
-	<artifactId>Assignment3</artifactId>
+	<artifactId>docker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	 <packaging>war</packaging>
-	<name>Assignment3</name>
+	<name>DockerImg</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
