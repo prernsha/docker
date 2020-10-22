@@ -1,8 +1,7 @@
 # webapp #
 
-This application allow User creation and further add bills for those users. 
+This application to create docker image. 
 
-Allowing users to perform CRUD operations for their bills.
 
 ### Prerequisites for building and deploying locally ###
 
@@ -10,18 +9,16 @@ Allowing users to perform CRUD operations for their bills.
 2. JDK 1.8 or later
 2. Git latest version
 3. Maven 3.1
-4. MySQL
 
 To get project on local do following:
-- **`git clone git@github.com:prernsha/webapp.git`**   
-- now cd into **`webapp`**  
+- **`git clone git@github.com:prernsha/docker.git`**   
+- now cd into **`docker`**  
 
 ### Build and Deploy instructions for web application ###  
 We are using Maven so run the following command  
-**`mvn clean install test`**  
+**`mvn clean install`**  
   
 #### Maven #### goals description -  
 - `clean`: removes any generated files  
 - `install`: install the package locally
-- `test`: test unit tests for the code
 
