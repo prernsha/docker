@@ -12,7 +12,6 @@ jobs:
     - run:
         name: maven build
         command: mvn clean install && pwd && ls -al && ls -al target/
-    - setup_remote_docker
     - run:
         name: login docker 
         command: docker login --username $DOCKER_USER --password $DOCKER_PASS
