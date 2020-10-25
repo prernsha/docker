@@ -4,7 +4,6 @@ jobs:
   pr_check:
     docker:
       - image: circleci/openjdk:8-jdk
-      - image: maven
     steps:
     - checkout #check out source code
     - run:
@@ -19,12 +18,11 @@ jobs:
         command: docker login --username $DOCKER_USER --password $DOCKER_PASS
     - run:
         name: create docker image
-        command: docker build -f images/Dockerfile && docker ps -a
+        command: docker build images/Dockerfile
 
   build_deploy:
     docker:
       - image: circleci/openjdk:8-jdk
-      - image: maven
     steps:
     - checkout #check out source code
     - run:
