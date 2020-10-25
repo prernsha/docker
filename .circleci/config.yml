@@ -18,7 +18,7 @@ jobs:
         command: docker login --username $DOCKER_USER --password $DOCKER_PASS
     - run:
         name: create docker image
-        command: docker build images/Dockerfile
+        command: docker build /images/Dockerfile
 
   build_deploy:
     docker:
