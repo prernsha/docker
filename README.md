@@ -1,4 +1,4 @@
-# webapp #
+# docker #
 
 This application to create docker image. 
 
